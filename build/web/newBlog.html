@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewBlog</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"/>
+    <link rel="stylesheet" href="newblog.css">
+</head>
+<body>
+	
+    <form action="addblog" method="POST">
+		<div class="panel">
+			<div class="ui attached stackable menu">
+		<div class="ui container">
+		  <a class="item" href="homepage.html">
+			<i class="home icon" ></i> Home
+		  </a>
+		  <div class="right menu">
+				  <a class="ui item" href="newBlog.html" >Add Blog</a>
+				  <a class="ui item" href="viewprofile">view profile</a>
+				  <a class="ui item" href="logout" >Logout</a>
+			  </div>
+		</div>
+	</div>
+			<h1 class="header" >Add New blog</h1>
+			<!--<input class="inputfield"  type="text"      name="bid"     placeholder="bid">-->
+			<input class="inputfield"  type="text"      name="name"     placeholder="Name">
+			<!--<input class="inputfield"  type="text"      name="imgid"     placeholder="imgID">-->
+			<input class="inputfield"  type="text"      name="tag"     placeholder="tag">
+
+			<input class="inputfield"  type="text"      name="imglink"     placeholder="imgurl">
+
+			<textarea class="inputfield" placeholder="Write.." name="content" cols="70" rows="30"></textarea>
+            <button class="addons-link">Add</button>
+		</div>
+	</form>
+</body>
+</html>

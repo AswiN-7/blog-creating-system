@@ -1,0 +1,64 @@
+body {
+    background-color: #60a9ff;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .header{
+    background-color: aqua;
+    color: azure;
+    border-radius: 10px;
+    padding: 15px 25px;
+    text-transform: uppercase;
+}
+.flag{
+    display: flex;
+    border-radius: 10px 30px;
+    background-color:tomato;
+    color:white;
+    padding: 15px 35px; 
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+
+}
+.panel {
+    background-color: white;
+    justify-content:space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 15px 25px;
+    width: 100%;
+    max-width: 960px;
+}
+.addons{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 25px;
+}
+.addons-link{
+    border: 1px solid #9dd1ff;
+    border-radius: 10px;
+    color:antiquewhite;
+    background-color: #348efe;
+    text-decoration: none;
+    padding: 15px 35px;
+    transition: background-color 200ms ease-in-out;
+
+}
+
+.inputfield{
+    background-color:rgb(204, 232, 250);
+    border-radius: 4px;
+    padding: 15px 25px;
+    margin-bottom: 10px;
+	width: 60%;
+    text-align: center;
+}
