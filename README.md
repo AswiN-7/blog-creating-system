@@ -3,6 +3,6 @@ this is project is created using netbeans
 database is mysql
 <object data="readme.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="readme.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="readme.pdf">Download PDF</a>.</p>
+        <p> README is in pdf : <a href="readme.pdf">click here to view</a>.</p>
     </embed>
 </object>
